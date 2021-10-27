@@ -1,0 +1,22 @@
+#principal{
+    border: double 22px red;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 400px;
+    margin-left: 37%;
+    margin-top: 10%;
+}
+
+#valor{
+    background-color: yellow; 
+    margin-bottom: 4px;
+}
+#input{
+    text-align: start;
+    margin-left: 80px;
+}
+
+#result{
+    text-align: start;
+    margin-left: 80px;
+}

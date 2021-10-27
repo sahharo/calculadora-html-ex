@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css"
+    
+</head>
+
+<body>
+    <div class="principal" id="principal">
+        <h1>Calculadora</h1>
+        <div class="valores" id="valores">
+            <div class="valor01" id="valor01">
+                <strong>Valor 1:</strong><input type="number" name=”valor01" id="valor" />
+            </div>
+            <div class="valor01" id="valor01">
+                <strong>Valor 2:</strong><input type="number" name=”valor02" id="valor" />
+            </div>
+        </div>
+        <div class="input" id="input">
+            <strong>Opções:</strong>
+            
+            <label>
+                <br>Soma<input type="radio" name=”calula" value="soma" />
+
+                <br> Divisão <input type="radio" name=”calula" value="div" />
+            
+                <br>Subtração<input type="radio" name=”calula" value="sub" />
+         
+                <br> Multiplicação <input type="radio" name=”calula" value="Mult" />
+           
+            </label>
+
+        </div>
+        <div class="result" id="result">
+         <strong>Resultado:</strong><br><input type="number" name="resultado" id="valor" />
+         <br>
+         <input type="submit" value="Calcular">
+        </div>
+</html>
